@@ -1,0 +1,84 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "7b6d25f3eeea61b7263524684809673f8592b6f043a970054b4f55d5c79e02db"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.7"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "aiofiles": {
+            "hashes": [
+                "sha256:021ea0ba314a86027c166ecc4b4c07f2d40fc0f4b3a950d1868a0f2571c2bbee",
+                "sha256:1e644c2573f953664368de28d2aa4c89dfd64550429d0c27c4680ccd3aa4985d"
+            ],
+            "index": "pypi",
+            "version": "==0.4.0"
+        },
+        "click": {
+            "hashes": [
+                "sha256:2335065e6395b9e67ca716de5f7526736bfa6ceead690adf616d925bdc622b13",
+                "sha256:5b94b49521f6456670fdb30cd82a4eca9412788a93fa6dd6df72c94d5a8ff2d7"
+            ],
+            "version": "==7.0"
+        },
+        "discord-py": {
+            "git": "https://github.com/Rapptz/discord.py",
+            "ref": "860d6a9ace8248dfeec18b8b159e7b757d9f56bb"
+        },
+        "dynaconf": {
+            "hashes": [
+                "sha256:09abcaaa37907a331a66ecdca2b04809ab1fe055bb9a9aceb9e68cba1f44eafa",
+                "sha256:cfb920bd337754906b35ba1551fb33292db63ae1a1c5e748b1624433e0ff6848"
+            ],
+            "index": "pypi",
+            "version": "==1.0.6"
+        },
+        "peewee": {
+            "hashes": [
+                "sha256:a91c3ccff43ab71f08196aba1d17dd2548079744d54adc33d511db1c30b446ba"
+            ],
+            "index": "pypi",
+            "version": "==3.7.1"
+        },
+        "python-box": {
+            "hashes": [
+                "sha256:16ba64b0efabee84f08b1d6721c627ee8e53e6259be7211e84a4f3d3f9212c3c",
+                "sha256:b79b37b46d2b7067a956c97eb1d6176536f3c6a307cdb12136ade67ea4308b4a",
+                "sha256:c5499c733fd4447270b82aa7a8e369387fefe9a53990682229b6d667c4e5d633"
+            ],
+            "version": "==3.2.1"
+        },
+        "python-dotenv": {
+            "hashes": [
+                "sha256:122290a38ece9fe4f162dc7c95cae3357b983505830a154d3c98ef7f6c6cea77",
+                "sha256:4a205787bc829233de2a823aa328e44fd9996fedb954989a21f1fc67c13d7a77"
+            ],
+            "version": "==0.9.1"
+        },
+        "six": {
+            "hashes": [
+                "sha256:70e8a77beed4562e7f14fe23a786b54f6296e34344c23bc42f07b15018ff98e9",
+                "sha256:832dc0e10feb1aa2c68dcc57dbb658f1c7e65b9b61af69048abc87a2db00a0eb"
+            ],
+            "version": "==1.11.0"
+        },
+        "toml": {
+            "hashes": [
+                "sha256:229f81c57791a41d65e399fc06bf0848bab550a9dfd5ed66df18ce5f05e73d5c",
+                "sha256:235682dd292d5899d361a811df37e04a8828a5b1da3115886b73cf81ebc9100e"
+            ],
+            "version": "==0.10.0"
+        }
+    },
+    "develop": {}
+}

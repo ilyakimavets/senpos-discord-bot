@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+discord-py = {ref = "rewrite", git = "https://github.com/Rapptz/discord.py"}
+dynaconf = "*"
+aiofiles = "*"
+peewee = "*"
+
+[dev-packages]
+black = "*"
+
+[requires]
+python_version = "3.7"
