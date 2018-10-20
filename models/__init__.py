@@ -1,7 +1,6 @@
 from peewee import Model, SqliteDatabase
-from dynaconf import settings
 
-db = SqliteDatabase(settings.DB_URL)
+db = SqliteDatabase('bot.db')
 
 
 class BaseModel(Model):
