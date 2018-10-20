@@ -1,6 +1,8 @@
-version: '2'
+version: '3'
 services:
     bot:
+        environment:
+            - DYNACONF_TOKEN=${DYNACONF_TOKEN}
         build: .
         volumes:
             - ./bot.db:/opt/senpos-discord-bot/bot.db
